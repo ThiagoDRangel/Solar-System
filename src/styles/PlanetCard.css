@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.img-planet {
+  width: 235px;
+}
+
+img:hover {
+  background-color: #ffffff64;
+  border-radius: 100%;
+}
+
+.name-planet {
+  font-size: 31px;
+  text-align: center;
+}
+
+.name-planet:hover {
+  background-color: rgb(65, 199, 208);
+}

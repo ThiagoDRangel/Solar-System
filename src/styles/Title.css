@@ -1,0 +1,12 @@
+.title {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.title:hover {
+  color: rgba(255, 255, 255, 0.432)
+}
