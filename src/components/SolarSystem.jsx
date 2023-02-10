@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import Title from './Title';
 import planets from '../data/planets';
 import PlanetCard from './PlanetCard';
-import '../style/solarSystem.css';
+import '../styles/SolarSystem.css';
 
 class SolarSystem extends Component {
   render() {
     return (
-      <section>
+      <section className="order">
         <Title
           className="planets-title"
           headline="Planetas"

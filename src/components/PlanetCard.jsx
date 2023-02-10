@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import '../style/planetCard.css';
+import '../styles/PlanetCard.css';
 
 class PlanetCard extends Component {
   render() {
@@ -12,14 +12,19 @@ class PlanetCard extends Component {
           src={ planetImage }
           alt={ `Planeta ${planetName}` }
         />
+        <p
+          className="name-planet"
+        >
+          {planetName}
+        </p>
       </section>
     );
   }
 }
 
 PlanetCard.propTypes = {
-  planetName: PropTypes.string,
-  planetImage: PropTypes.string,
-}.isRequired;
+  planetName: PropTypes.string.isRequired,
+  planetImage: PropTypes.string.isRequired,
+};
 
 export default PlanetCard;

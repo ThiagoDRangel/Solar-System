@@ -1,0 +1,10 @@
+.container-missions {
+  align-items: center;
+  background: gray;
+  background-image: linear-gradient(rgb(104, 101, 101), rgba(144, 141, 53, 0.753), rgb(83, 65, 59), black);
+  border-radius:  30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
